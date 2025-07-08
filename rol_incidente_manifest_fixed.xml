@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:type="MessageCompose">
+  <Id>1cd14aba-00ce-47f2-9a2a-13ab4b8e09e0</Id>
+  <Version>1.0.0.0</Version>
+  <ProviderName>DLS Archer</ProviderName>
+  <DefaultLocale>en-US</DefaultLocale>
+  <DisplayName DefaultValue="ROL INCIDENTE"/>
+  <Description DefaultValue="Plantilla de correo para situaciones de emergencia"/>
+  <IconUrl DefaultValue="https://cdn-icons-png.flaticon.com/512/684/684908.png"/>
+  <SupportUrl DefaultValue="https://dls-archer.com"/>
+  <Hosts>
+    <Host Name="Mailbox"/>
+  </Hosts>
+  <Requirements>
+    <Sets DefaultMinVersion="1.1">
+      <Set Name="Mailbox"/>
+    </Sets>
+  </Requirements>
+  <FormSettings>
+    <Form xsi:type="MessageCompose">
+      <DesktopSettings>
+        <SourceLocation DefaultValue="https://cristianmarrero.github.io/outlook-addin/rol_incidente.html"/>
+        <RequestedHeight>250</RequestedHeight>
+      </DesktopSettings>
+      <TabletSettings>
+        <SourceLocation DefaultValue="https://cristianmarrero.github.io/outlook-addin/rol_incidente.html"/>
+        <RequestedHeight>250</RequestedHeight>
+      </TabletSettings>
+      <PhoneSettings>
+        <SourceLocation DefaultValue="https://cristianmarrero.github.io/outlook-addin/rol_incidente.html"/>
+        <RequestedHeight>250</RequestedHeight>
+      </PhoneSettings>
+    </Form>
+  </FormSettings>
+  <Permissions>ReadWriteItem</Permissions>
+</OfficeApp>
